@@ -1,0 +1,28 @@
+<?php
+
+namespace {{ namespace }};
+
+use App\Models\Model;
+use App\Interfaces\;
+
+class {{ class }} implements {{ class }}Interface
+{
+     public function add(array $request)
+    {
+        $var = new Model;
+        
+        $var->title = $request['title'];
+        $var->created_by = config()->get('global.user_id');
+        $var->updated_by = config()->get('global.user_id');
+        
+        if($var->save()){
+            return response()->json([
+                'message' => ' added successfully',
+                'data'  => $var
+            ]);
+
+        }
+    }
+    
+    
+}

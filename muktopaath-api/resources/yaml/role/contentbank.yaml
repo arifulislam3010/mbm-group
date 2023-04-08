@@ -1,0 +1,152 @@
+super-admin:
+  active: false
+  name: 'Super Admin'
+  content:
+    create: true
+    update: true
+    delete: true
+    view: true
+    update_all: true
+    delete_all: true
+    view_all: true
+    view-details: true
+    create-my_other_purchase: true
+    enroll: true
+    view_ordered_content: true
+    review-content: true
+    view-reviews: true
+    view-recomendations: true
+    quiz-submit: true
+  question-bank:
+    create: true
+    update: true
+    delete: true
+    view: true
+    update_all: true
+    delete_all: true
+    view_all: true
+    create-category: true
+    view-category: true
+    search-folder: true
+admin:
+    active: true
+    name: 'admin'
+    content:
+        create: true
+        update: true
+        delete: true
+        view: true
+        update_all: true
+        delete_all: true
+        view_all: true
+        view-details: true
+        create-my_other_purchase: true
+        enroll: true
+        view_ordered_content: true
+        review-content: true
+        view-reviews: true
+        view-recomendations: true
+        quiz-submit: true
+    question-bank:
+        create: true
+        update: true
+        delete: true
+        view: true
+        update_all: true
+        delete_all: true
+        view_all: true
+        create-category: true
+        view-category: true
+        search-folder: true
+
+coadmin:
+    active: true
+    name: 'Co-Admin'
+    content:
+        create: true
+        update: true
+        delete: true
+        view: true
+        update_all: true
+        delete_all: true
+        view_all: true
+        view-details: true
+        create-my_other_purchase: true
+        enroll: true
+        view_ordered_content: true
+        review-content: true
+        view-reviews: true
+        view-recomendations: true
+        quiz-submit: true
+    question-bank:
+        create: true
+        update: true
+        delete: true
+        view: true
+        update_all: true
+        delete_all: true
+        view_all: true
+        create-category: true
+        view-category: true
+        search-folder: true
+
+teacher:
+    active: true
+    name: 'Teacher'
+    content:
+        create: true
+        update: true
+        delete: true
+        view: true
+        update_all: true
+        delete_all: true
+        view_all: true
+        view-details: true
+        create-my_other_purchase: true
+        enroll: true
+        view_ordered_content: true
+        review-content: true
+        view-reviews: true
+        view-recomendations: true
+        quiz-submit: true
+    question-bank:
+        create: true
+        update: true
+        delete: true
+        view: true
+        update_all: true
+        delete_all: true
+        view_all: true
+        create-category: true
+        view-category: true
+        search-folder: true
+content-developer:
+    name: 'Content Developer'
+    active: true
+    content:
+        create: true
+        update: true
+        delete: true
+        view: true
+        update_all: true
+        delete_all: true
+        view_all: true
+        view-details: true
+        create-my_other_purchase: true
+        enroll: true
+        view_ordered_content: true
+        review-content: true
+        view-reviews: true
+        view-recomendations: true
+        quiz-submit: true
+    question-bank:
+        create: true
+        update: true
+        delete: true
+        view: true
+        update_all: true
+        delete_all: true
+        view_all: true
+        create-category: true
+        view-category: true
+        search-folder: true

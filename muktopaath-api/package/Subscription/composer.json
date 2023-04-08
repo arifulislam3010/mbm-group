@@ -1,0 +1,28 @@
+{
+    "name": "muktopaath/Subscription",
+    "description": "A package for muktopaath Subscription",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Subscription\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Subscription\\Providers\\RepositoryServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "authors": [
+        {
+            "name": "Nahiyan Aziz",
+            "email": "nahiyan.aziz@gmail.com"
+        }
+    ],
+
+    "minimum-stability": "dev",
+    "require": {}
+}

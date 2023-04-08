@@ -1,0 +1,140 @@
+super-admin:
+  active: false
+  name: 'Super Admin'
+  create: true
+  update: true
+  delete: true
+  view: true
+  update_all: true
+  delete_all: true
+  view_all: true
+admin: 
+  active: true
+  name: 'Admin'
+  user:
+    create: true
+    upload-file: true
+    get-files: true
+    get-my-files: true
+    create-folder: true
+    create-url: true
+    download-file: true
+    storage-types: false
+    file-types: true
+writer:
+  active: true
+  name: 'Writer (Blog)'
+  user:
+    create: true
+    upload-file: true
+    get-files: true
+    get-my-files: true
+    create-folder: true
+    create-url: true
+    download-file: true
+    storage-types: false
+    file-types: true
+editor:
+  active: true
+  name: 'Editor'
+  user:
+    create: true
+    upload-file: true
+    get-files: true
+    get-my-files: true
+    create-folder: true
+    create-url: true
+    download-file: true
+    storage-types: false
+    file-types: true
+view:
+  active: true
+  name: 'View'
+  user:
+    create: true
+    upload-file: true
+    get-files: true
+    get-my-files: true
+    create-folder: true
+    create-url: true
+    download-file: false
+    storage-types: false
+    file-types: true
+instructor:
+  active: true
+  name: Iinstructor/Faciloator (course)'
+  user:
+    create: true
+    upload-file: true
+    get-files: true
+    get-my-files: true
+    create-folder: true
+    create-url: true
+    download-file: false
+    storage-types: false
+    file-types: true
+trainer:
+  active: true
+  name: 'Trainer (training)'
+  user:
+    create: true
+    upload-file: true
+    get-files: true
+    get-my-files: true
+    create-folder: true
+    create-url: true
+    download-file: false
+    storage-types: false
+    file-types: true
+moderator:
+  active: true
+  name: 'Moderator'
+  user:
+    create: true
+    upload-file: true
+    get-files: true
+    get-my-files: true
+    create-folder: true
+    create-url: true
+    download-file: false
+    storage-types: false
+    file-types: true
+developer:
+  active: true
+  name: 'Developer'
+  user:
+    create: true
+    upload-file: true
+    get-files: true
+    get-my-files: true
+    create-folder: true
+    create-url: true
+    download-file: false
+    storage-types: false
+    file-types: true
+supporter:
+  active: true
+  name: 'Supporter'
+  user:
+    create: true
+    upload-file: true
+    get-files: true
+    get-my-files: true
+    create-folder: true
+    create-url: true
+    download-file: false
+    storage-types: false
+    file-types: true
+provider:
+  active: true
+  name: 'Provider'
+  user:
+    create: true
+    upload-file: true
+    get-files: true
+    get-my-files: true
+    create-folder: true
+    create-url: true
+    download-file: false
+    storage-types: false
+    file-types: true

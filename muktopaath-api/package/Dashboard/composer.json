@@ -1,0 +1,13 @@
+{
+    "name": "Muktopaath/dashboard",
+    "description": "A Package for generating dashboard",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Orangebd\\Dashboard\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}

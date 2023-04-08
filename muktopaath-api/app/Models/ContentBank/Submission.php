@@ -1,0 +1,10 @@
+<?php
+
+namespace App\Models\ContentBank;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Submission extends Model
+{
+    protected $guarded = ['created_at', 'updated_at'];
+}

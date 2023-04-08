@@ -1,0 +1,219 @@
+super-admin:
+  active: false 
+  name: 'Super Admin'
+  create: true
+  update: true
+  delete: true
+  view: true
+  update_all: true
+  delete_all: true
+  view_all: true
+admin: 
+  active: false
+  name: 'Admin'
+  course:
+    create: true
+    view-details: true
+    update: true
+    delete: true
+    lesson: true
+    view: true
+    update_all: false
+    delete_all: false
+    view_all: true
+    update-publish-feature: true
+  template:
+    view: true
+    create: true
+    edit: true
+    update: true
+    delete: true
+  batch:
+    create: true
+    update: true
+    delete: true
+    view: true
+    find: true
+    update-publish-feature: true
+    view-restricted-user: true
+    create-restricted-user: true
+    update-restricted-user: true
+    delete-restricted-user: true
+    create-csv-restricted-user: true
+    view-enrolled-batches: true
+    enroll: true
+    create-review: true
+    view-reviews: true
+    view-enroll-details: true
+    quiz-submit: true
+    update_all: true
+    delete_all: true
+    view_all: true
+    view-syllabus: true
+    update-syllabus: true
+writer:
+  active: false
+  course:
+    create: true
+    details-view: true
+    update: true
+    delete: true
+    lesson: true
+    view: true
+    update_all: true
+    delete_all: true
+    view_all: true
+    publish-feature-update: true
+  template:
+    view: true
+    create: true
+    edit: true
+    update: true
+    delete: true
+  batch:
+    create: true
+    update: true
+    delete: true
+    view: true
+    find: true
+    publish-feature-update: true
+    restricted-user-view: true
+    restricted-user-create: true
+    restricted-user-update: true
+    restricted-user-delete: true
+    csv-restricted-user-create: true
+    enrolled-batches-view: true
+    enroll-create: true
+    enrollment-review-create: true
+    enrollment-reviews-view: true
+    enroll-details-view: true
+    quiz-submit-create: true
+    update_all: true
+    delete_all: true
+    view_all: true
+coadmin:
+  active: true
+  name: 'Co-admin'
+  course:
+    create: true
+    details-view: true
+    update: true
+    delete: true
+    lesson: true
+    view: true
+    update_all: true
+    delete_all: true
+    view_all: true
+    publish-feature-update: true
+  template:
+    view: true
+    create: true
+    edit: true
+    update: true
+    delete: true
+  batch:
+    create: true
+    update: true
+    delete: true
+    view: true
+    find: true
+    publish-feature-update: true
+    restricted-user-view: true
+    restricted-user-create: true
+    restricted-user-update: true
+    restricted-user-delete: true
+    csv-restricted-user-create: true
+    enrolled-batches-view: true
+    enroll-create: true
+    enrollment-review-create: true
+    enrollment-reviews-view: true
+    enroll-details-view: true
+    quiz-submit-create: true
+    update_all: true
+    delete_all: true
+    view_all: true
+teacher:
+  active: true
+  name: 'Teacher/Trainer/Instructor'
+  course:
+    create: true
+    details-view: true
+    update: true
+    delete: true
+    lesson: true
+    view: true
+    update_all: true
+    delete_all: true
+    view_all: true
+    publish-feature-update: true
+  batch:
+    create: true
+    update: true
+    delete: true
+    view: true
+    find: true
+    publish-feature-update: true
+    restricted-user-view: true
+    restricted-user-create: true
+    restricted-user-update: true
+    restricted-user-delete: true
+    csv-restricted-user-create: true
+    enrolled-batches-view: true
+    enroll-create: true
+    enrollment-review-create: true
+    enrollment-reviews-view: true
+    enroll-details-view: true
+    quiz-submit-create: true
+    update_all: true
+    delete_all: true
+    view_all: true
+examiner:
+  active: true
+  name: 'Examiner'
+  markings:
+    view: true
+    view_all: true
+    provide-mark: true
+    update-mark: true
+reviewer:
+  active: true
+  name: 'Reviewer'
+  course:
+    create: false
+    details-view: true
+    update: false
+    delete: false
+    lesson: true
+    view: true
+    update_all: false
+    delete_all: false
+    view_all: true
+    publish-feature-update: true
+  template:
+    view: true
+    create: false
+    edit: false
+    update: false
+    delete: false
+  batch:
+    create: true
+    update: true
+    delete: true
+    view: true
+    find: true
+    publish-feature-update: true
+    restricted-user-view: true
+    restricted-user-create: true
+    restricted-user-update: true
+    restricted-user-delete: true
+    csv-restricted-user-create: true
+    enrolled-batches-view: true
+    enroll-create: true
+    enrollment-review-create: true
+    enrollment-reviews-view: true
+    enroll-details-view: true
+    quiz-submit-create: true
+    update_all: true
+    delete_all: true
+    view_all: true
+ 

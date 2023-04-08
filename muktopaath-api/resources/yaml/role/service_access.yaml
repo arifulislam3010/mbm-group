@@ -1,0 +1,275 @@
+course:
+  name: 'Course Management'
+  service: 'course'
+  access:  
+    course: 
+        create: true
+        view-details: true
+        update: true
+        delete: true
+        lesson: true
+        lesson-details: true
+        view: true
+        update_all: true
+        delete_all: true
+        view_all: true
+        update-publish-feature: true
+    dashboard:
+        header-stats: true
+        header-stats_all: true
+    template:
+        certificate-store: true
+        view: true
+    accounts:
+        batch-payments: true
+        request-payment: true
+        view_all_requests: true
+        approve_request: true
+        reject_request: true
+        delete_request: true
+        overall_transactions: true
+        check-status : true
+    evaliuation:
+        results: true
+        performance-stats: true
+        user-answers: true
+        update-user-answers: true
+    reports:
+        learners: true
+        learners-report: true
+        learner-courses: true
+        learner-course-report: true
+        learner-stats: true
+        courses: true
+        courses-report: true
+        course-users: true
+        course-users-report: true
+        course-stats: true
+        course-stat: true
+    batch:
+        view: true
+        view_all: true
+        create: true
+        update: true
+        find: true
+        clone: true
+        transaction_report: true
+        evaluation-results: true
+        delete: true
+        update-publish-feature: true
+        view-restricted-user:   true
+        create-restricted-user: true
+        update-restricted-user: true
+        delete-restricted-user: true
+        create-csv-restricted-user: true
+        view-enrolled-batches: true
+        enrolled_users: true
+        enroll: true
+        enroll-by-admin: true
+        create-review: true
+        view-reviews: true
+        view-enroll-details: true
+        quiz-submit: true
+        courseworks: true
+        view-syllabus: true
+        update-syllabus: true
+        view-syllabus-all: true
+        view-syllabus-child: true
+        repeating-class: true
+        approve_enroll: true
+    order:
+        approve-payment: true
+    people:
+        view: true
+        create: true
+        update: true
+        delete: true
+        create-teacher: true
+        create-student: true
+        enroll-send-token: true
+        share-course: true
+content-bank:
+  name: 'Content Bank'
+  service: 'content-bank'
+  access:
+    content:
+      view: true
+      view_all: true
+      create: true
+      update: true
+      update_all: true
+      delete: true
+      delete_all: true
+      create-my_other_purchase: true
+      enroll: true
+    question-bank:
+        create: true
+        update: true
+        delete: true
+        view: true
+        view_all: true
+        update_all: true
+        delete_all: true
+        create-folder: true
+        view-folder: true
+        search-folder: true
+        view-folder-question: true
+classroom: 
+  name: 'Class Room'
+  service: 'classroom'
+  access:
+    class: 
+        create: true
+        update: true
+        delete: true
+        view: true
+        show: true
+        view_details: true
+        update_all: true
+        delete_all: true
+        view_all: true
+    class_people:
+        create: true
+        update: true
+        delete: true
+        view: true
+        show: true
+        create-teacher: true
+        create-student: true
+        share-course: true
+    class_dashboard:
+        header-stats: true
+        header-stats_all: true
+    class_evaluation:
+        results: true
+    schedule:
+        view-syllabus: true
+        update-syllabus: true
+        view-syllabus-all: true
+        view-syllabus-all_all: true
+        view-syllabus-child: true
+        view-discussions: true
+        lesson: true
+        lesson-details: true
+    attendance:
+        view: true
+        store: true
+        download: true
+exam-center:
+  name: 'Exam Center'
+  service: 'exam-center'
+  access:
+    exam:
+        create: true
+        update: true
+        delete: true
+        view: true
+        update_all: true
+        delete_all: true
+        view_all: true
+    exam_batch:
+        view: true
+        create: true
+        edit: true
+        update: true
+        delete: true
+my-account:
+  name: 'My Account'
+  service: 'my-account'
+  access:
+    role:
+      active: true
+      name: 'User'
+      create: true
+      update: true
+      delete: true
+      view: true
+      update_all: true
+      delete_all: true
+      view_all: true
+      search: true
+      view-info: true
+      switch-account: true
+      switch-role: true
+    user:
+      active: true
+      name: 'User'
+      create: true
+      update: true
+      delete: true
+      view: true
+      update_all: true
+      delete_all: true
+      view_all: true
+      search: true
+      view-info: true
+      switch-account: true
+      switch-role: true
+    system-user:
+      create: true
+      update: true
+      delete: true
+      view: true
+      update_all: true
+      delete_all: true
+      view_all: true
+      view-userrole: true
+      users-access-given: true
+      services-users: true
+      create-services-users: true
+      update-services-users: true
+    institutions:
+      active: true
+      name: 'Institutions'
+      create: true
+      update: true
+      delete: true
+      view: true
+      update_all: true
+      delete_all: true
+      view-types: true
+      view_all: true
+      view-unapproved: true
+      approve: true
+admin-settings:
+  name: 'Admin Setings'
+  service: 'admin-setings'
+  access:
+    frontent:
+        create: true
+        update: true
+        delete: true
+        view: true
+        update_all: true
+        delete_all: true
+        view_all: true
+    blog:
+        view: true
+        create: true
+        edit: true
+        update: true
+        delete: true
+    cms:
+        view: true
+        create: true
+        edit: true
+        update: true
+        delete: true
+    slider:
+        view: true
+        create: true
+        edit: true
+        update: true
+        delete: true
+    course-category:
+        view: true
+        create: true
+        edit: true
+        update: true
+        delete: true
+    current-activities:
+        view: true
+        create: true
+        edit: true
+        update: true
+        delete: true

@@ -1,0 +1,144 @@
+super-admin:
+  active: true
+  name: 'Super Admin'
+  create: true
+  update: true
+  delete: true
+  view: true
+  update_all: true
+  delete_all: true
+  view_all: true
+  enjoy_all: true
+admin:
+  user:
+    active: true
+    name: 'User'
+    create: true
+    update: true
+    delete: true
+    view: true
+    update_all: true
+    delete_all: true
+    view_all: true
+    search: true
+    view-info: true
+    switch-account: true
+    switch-role: true
+  institutions:
+    active: true
+    name: 'Institutions'
+    create: true
+    update: true
+    delete: true
+    view: true
+    update_all: true
+    delete_all: true
+    view-types: true
+    view_all: true
+    view-unapproved: true
+    approve: true
+  role:
+    create: true
+    update: true
+    delete: true
+    view: true
+    update_all: true
+    delete_all: true
+    view_all: true
+    view-userrole: true
+    users-access-given: true
+    services-users: true
+    create-services-users: true
+
+
+writer:
+  active: false
+  name: 'Writer (Blog)'
+  create: true
+  update: true
+  delete: true
+  view: true
+  update_all: true
+  delete_all: true
+  view_all: true
+editor:
+  active: true
+  name: 'Editor'
+  create: true
+  update: true
+  delete: true
+  view: true
+  update_all: true
+  delete_all: true
+  view_all: true  
+view:
+  active: true
+  name: 'View'
+  create: true
+  update: true
+  delete: true
+  view: true
+  update_all: true
+  delete_all: true
+  view_all: true
+instructor:
+  active: true
+  name: Iinstructor/Faciloator (course)'
+  create: true
+  update: false
+  delete: false
+  view: true
+  update_all: false
+  delete_all: false
+  view_all: true  
+trainer:
+  active: true
+  name: 'Trainer (training)'
+  create: true
+  update: true
+  delete: true
+  view: true
+  update_all: true
+  delete_all: true
+  view_all: true
+moderator:
+  active: true
+  name: 'Moderator'
+  create: true
+  update: true
+  delete: true
+  view: true
+  update_all: true
+  delete_all: true
+  view_all: true
+developer:
+  active: true
+  name: 'Developer'
+  create: true
+  update: true
+  delete: true
+  view: true
+  update_all: true
+  delete_all: true
+  view_all: true
+supporter:
+  active: true
+  name: 'Supporter'
+  create: true
+  update: true
+  delete: true
+  view: true
+  update_all: true
+  delete_all: true
+  view_all: true
+provider:
+  active: true
+  name: 'Provider'
+  create: true
+  update: true
+  delete: true
+  view: true
+  update_all: true
+  delete_all: true
+  view_all: true
+  

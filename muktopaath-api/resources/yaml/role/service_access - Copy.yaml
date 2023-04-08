@@ -1,0 +1,75 @@
+course:
+  name: 'Course Management'
+  service: 'course'
+  access:
+        course:
+        create: true
+        view-details: true
+        update: true
+        delete: true
+        lesson: true
+        view: true
+        update_all: false
+        delete_all: false
+        view_all: true
+        update-publish-feature: true
+    template:
+        view: true
+        create: true
+        edit: true
+        update: true
+        delete: true
+    batch:
+        create: true
+        update: true
+        delete: true
+        view: true
+        find: true
+        update-publish-feature: true
+        view-restricted-user: true
+        create-restricted-user: true
+        update-restricted-user: true
+        delete-restricted-user: true
+        create-csv-restricted-user: true
+        view-enrolled-batches: true
+        enroll: true
+        create-review: true
+        view-reviews: true
+        view-enroll-details: true
+        quiz-submit: true
+        update_all: true
+        delete_all: true
+        view_all: true
+        view-syllabus: true
+        update-syllabus: true
+content-bank:
+  name: 'Content Bank'
+  service: 'content-bank'
+  access:
+        content:
+        create: true
+        update: true
+        delete: true
+        view: true
+        update_all: true
+        delete_all: true
+        view_all: true
+        view-details: true
+        create-my_other_purchase: true
+        enroll: true
+        view_ordered_content: true
+        review-content: true
+        view-reviews: true
+        view-recomendations: true
+        quiz-submit: true
+    question-bank:
+        create: true
+        update: true
+        delete: true
+        view: true
+        update_all: true
+        delete_all: true
+        view_all: true
+        create-category: true
+        view-category: true
+        search-folder: true

@@ -1,0 +1,3 @@
+user: 'App\Models\Myaccount\User'
+institutions: 'App\Models\Myaccount\InstitutionInfo'
+system-user: 'App\Models\Myaccount\SystemRole'

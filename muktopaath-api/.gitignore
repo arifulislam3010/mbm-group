@@ -1,0 +1,14 @@
+vendor
+.idea
+config/database.php
+config/queue.php
+public/storage
+storage
+Homestead.json
+Homestead.yaml
+.env
+.phpunit.result.cache
+db
+backup
+*.zip
+.git

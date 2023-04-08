@@ -1,0 +1,236 @@
+/* @import url('https://fonts.googleapis.com/css?family=Macondo|Mogra|Ubuntu|Oxygen|Lobster|Righteous|Audiowide|Charm|Blinker'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap'); */
+@font-face {
+    font-family: 'Aller';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Aller'), url('../fonts/aller-fonts/Aller_Rg.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Aller Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Aller Italic'), url('../fonts/aller-fonts/Aller_It.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Aller Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Aller Bold'), url('../fonts/aller-fonts/Aller_Bd.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Aller Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Aller Bold Italic'), url('../fonts/aller-fonts/Aller_BdIt.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Aller Display';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Aller Display'), url('../fonts/aller-fonts/AllerDisplay.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Aller Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Aller Light Italic'), url('../fonts/aller-fonts/Aller_LtIt.woff') format('woff');
+}
+
+body{    
+    font-family: 'Aller';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #1a1a1a;
+    overflow-x: hidden;
+}
+.button, a {
+    transition: all .5s ease-in-out;
+    color: #333;
+}
+.button, a, input {
+    outline: medium none!important;
+    color: #333;
+}
+a, a>* {
+    outline: 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.hide{
+    display: none;
+}
+.popup_open{
+    overflow: hidden;
+}
+.black_overlay{
+    position: fixed;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background-image: linear-gradient(45deg, #000000cc, #006699cc);
+    overflow-y: auto;
+    z-index: 999;
+}
+.white_overlay{
+    position: relative;
+    left: 5%; top: 5%;
+    width: 90%; height: auto;
+    background-color: #fff;
+    transition: all 0.4s;
+}
+.white_overlay > label{
+    display: block;
+    position: relative;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #44abe0;
+    color: #f7f7f7;
+    top: 10px;
+    padding: 8px 15px;
+    box-shadow: 0 3px 8px #999;
+    text-shadow: 0 0 5px #333;
+}
+.white_overlay > label::before,.white_overlay > label::after{
+    content: "";
+    position: absolute;
+}
+.white_overlay > label::before{
+    width: 7px;
+    height: 44px;
+    top: 0;
+    left: -7px;
+    padding: 0 0 7px;
+    background: inherit;
+    border-radius: 5px 0 0 5px;
+}
+.white_overlay > label::after{
+    width: 5px;
+    height: 5px;
+    bottom: -5px;
+    left: -5px;
+    background: #f26822;
+    border-radius: 5px 0 0 5px;
+}
+.white_overlay > .close_btn{
+    position: absolute;
+    content: 'x';
+    right: -13px;
+    top: 15px;
+    cursor: pointer;
+    background-color: #fff;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #f26822;
+    box-shadow: 0px 0px 5px #000;
+    border-radius: 50%;
+    z-index: 5;
+}
+.theme-purple .vdatetime-year-picker__item--selected,
+.theme-purple .vdatetime-time-picker__item--selected,
+.theme-purple .vdatetime-popup__actions__button {
+  color: purple;
+}
+.theme-purple .vdatetime-popup__header,
+.theme-purple .vdatetime-calendar__month__day--selected > span > span,
+.theme-purple .vdatetime-calendar__month__day--selected:hover > span > span {
+  background: purple;
+}
+
+::-webkit-scrollbar {
+    width: 10px; transition: all 0.4s ease-in;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+::-webkit-input-placeholder { /* Edge */
+    color: #bbbbbb;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #bbbbbb;
+}
+
+::placeholder {
+    color: #bbbbbb;
+}
+
+.text_overflow {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.max_one_line_allow {
+    -webkit-line-clamp: 1
+}
+
+.max_two_lines_allow {
+    -webkit-line-clamp: 2
+}
+
+.max_three_lines_allow {
+    -webkit-line-clamp: 3
+}
+
+.max_four_lines_allow {
+    -webkit-line-clamp: 4
+}
+
+.max_five_lines_allow {
+    -webkit-line-clamp: 5
+}
+
+.ripple {
+    position: absolute;
+	background-color: #e0410280;
+    background-position: center;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+	transform: translateX(-100%) translateY(-100%);
+	mix-blend-mode: screen;
+	animation: ripple 1250ms ease-out forwards, fade 1500ms ease-out forwards;
+}
+
+@media (min-width: 1200px){
+  .container {
+      max-width: 1225px;
+  }
+}
+
+@keyframes ripple {
+	0%   { transform: translate(-100%, -100%); }
+	80%  { transform: translate(-100%, -100%) scale(50); }
+	100% { transform: translate(-100%, -100%) scale(50); opacity: 0; }
+}
+
+@keyframes fade {
+	0%   { opacity: 1; }
+	100% { opacity: 0; }
+}

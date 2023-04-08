@@ -1,0 +1,173 @@
+course:
+  name: 'Course Management'
+  service: 'course'
+  access:
+    course:
+        create: false
+        view-details: false
+        update: false
+        delete: false
+        lesson: false
+        view: false
+        update_all: false
+        delete_all: false
+        view_all: false
+        update-publish-feature: false
+    batch:
+        create: false
+        update: false
+        delete: false
+        view: false
+        find: false
+        update-publish-feature: false
+        view-restricted-user: false
+        create-restricted-user: false
+        update-restricted-user: false
+        delete-restricted-user: false
+        create-csv-restricted-user: false
+        view-enrolled-batches: false
+        enroll: false
+        create-review: false
+        view-reviews: false
+        view-enroll-details: false
+        quiz-submit: false
+        update_all: false
+        delete_all: false
+        view_all: false
+        view-syllabus: false
+        update-syllabus: false
+content-bank:
+  name: 'Content Bank'
+  service: 'content-bank'
+  access:
+    content:
+        create: false
+        update: false
+        delete: false
+        view: false
+        update_all: false
+        delete_all: false
+        view_all: false
+        view-details: false
+        create-my_other_purchase: false
+        enroll: false
+        view_ordered_content: false
+        review-content: false
+        view-reviews: false
+        view-recomendations: false
+        quiz-submit: false
+    assessments:
+        view: false
+        create: false
+        edit: false
+        update: false
+        delete: false
+    question-bank:
+        create: false
+        update: false
+        delete: false
+        view: false
+        update_all: false
+        delete_all: false
+        view_all: false
+        create-category: false
+        view-category: false
+        search-folder: false
+class-room:
+  name: 'Class Room'
+  service: 'class-room'
+  access:
+    class:
+        create: false
+        update: false
+        delete: false
+        view: false
+        update_all: false
+        delete_all: false
+        view_all: false
+    batch:
+        view: false
+        create: false
+        edit: false
+        update: false
+        delete: false
+exam-center:
+  name: 'Exam Center'
+  service: 'exam-center'
+  access:
+    exam:
+        create: false
+        update: false
+        delete: false
+        view: false
+        update_all: false
+        delete_all: false
+        view_all: false
+    batch:
+        view: false
+        create: false
+        edit: false
+        update: false
+        delete: false
+myaccount:
+  name: 'Myaccount'
+  service: 'myaccount'
+  access:
+    system-user:
+        create: false
+        update: false
+        delete: false
+        view: false
+        update_all: false
+        delete_all: false
+        view_all: false
+    role-manage:
+        create: false
+        update: false
+        delete: false
+        view: false
+        update_all: false
+        delete_all: false
+        view_all: false
+admin-settings:
+  name: 'Admin Setings'
+  service: 'admin-setings'
+  access:
+    frontent:
+        create: false
+        update: false
+        delete: false
+        view: false
+        update_all: false
+        delete_all: false
+        view_all: false
+    blog:
+        view: false
+        create: false
+        edit: false
+        update: false
+        delete: false
+    cms:
+        view: false
+        create: false
+        edit: false
+        update: false
+        delete: false
+    slider:
+        view: false
+        create: false
+        edit: false
+        update: false
+        delete: false
+    course-category:
+        view: false
+        create: false
+        edit: false
+        update: false
+        delete: false
+    current-activities:
+        view: false
+        create: false
+        edit: false
+        update: false
+        delete: false

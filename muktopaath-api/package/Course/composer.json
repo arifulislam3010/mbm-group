@@ -1,0 +1,28 @@
+{
+    "name": "muktopaath/course",
+    "description": "A package for muktopaath course",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Muktopaath\\Course\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Muktopaath\\Course\\Providers\\ReportServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "authors": [
+        {
+            "name": "Nahiyan aziz",
+            "email": "nahiyan.aziz@gmail.com"
+        }
+    ],
+
+    "minimum-stability": "dev",
+    "require": {}
+}

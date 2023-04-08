@@ -1,0 +1,95 @@
+/**
+ * BASE COLORS
+ */
+$white: #fff;
+$black: #000;
+$green: #336633;
+$yellow: #ffa70b;
+$orange: #f16837;
+$violet: #9c52fd;
+$skyblue: #3596fe;
+$darkred: #CD0000;
+$blueviolet: #8a2be2;
+$ash: #cccccc;
+
+/**
+ * LIGHT COLORS
+ */
+$light_white: #f7f7f7;
+$light_ash: #eee;
+
+/**
+ * DARK COLORS
+ */
+$dark_ash: #666;
+
+/**
+ * OPACITY COLORS
+ */
+$green_op: #33663333;
+$green_opc: #3366331a;
+$yellow_op: #ffa70b33;
+$yellow_opc: #ffa70b1a;
+$violet_op: #9c52fd33;
+$violet_opc: #9c52fd1a;
+$blueviolet_op: #8a2be233;
+
+/**
+ * ALERT COLORS
+ */
+$succ_color: #007f44;
+$err_color: #CD0000;
+$auth_succ_txt_color: #c4ffe3;
+$auth_err_txt_color: #ffdbdb;
+
+/**
+ * SYSTEM COLORS
+ */
+$default_text_color: #333;
+$default_border_color: #ddd;
+$init_loader_bg_color: #eee;
+$init_loader_bg_color_opc: #29316880;
+$light_text_color: #999;
+$sys_brand_color: #293168;
+$sys_brand_color_op: #29316833;
+$sys_brand_color_opc: #2931681a;
+$ripple_orange: #293168CC;
+$yellow_text_color: rgb(255, 249, 170);
+$label_heading_color: #123a4e;
+
+/**
+ * SYSTEM GRADIENTS
+ */
+ $sys_brand_gcolor_1: #82192b;
+ $sys_brand_gcolor_2: #293168;
+
+/**
+ * INIT LOAD PROGRESS BAR COLORS
+ */
+$progress_bar_color: $ash;
+$progress_number_bg_color: $sys_brand_color;
+$progress_number_color: $white;
+$progress_bar_fill_color: $white;
+
+/**
+ * HEAD SECTION COLORS
+ */
+$notification_hover: #6900cc;
+$notification_sup: #8a2be2;
+$nav_bar_block_color: #666;
+$nav_label_bg_color: #dc2b12;
+$user_dashboard_btn: #006699;
+$user_dashboard_btn_hover: #007bcd;
+$add_cart_btn_color: #666;
+$title_color_1: #252d49;
+$title_color_2: #273c88;
+
+/**
+ * LOGIN USER NAME DISPLAY COLORS
+ */
+ $login_user_txt_color: #444444;
+ $login_user_txt_hcolor: $sys_brand_color;
+ $logout_btn_color: darkorange;
+ $logout_btn_hcolor: #CD0000;
+ $logout_sbtn_color: #CD0000;
+ $logout_sbtn_hcolor: darkorange;
